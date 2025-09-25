@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: 'Spartan', sans-serif;
+  src: url('/fonts/Spartan-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@theme {
+  --color-primary-green-400: hsl(180, 29%, 50%);
+  --color-background-green-50: hsl(180, 52%, 96%);
+  --color-gray-400: hsl(180, 8%, 52%);
+  --color-green-900: hsl(180, 14%, 20%);
+  --default-font-size: 15px;
+  --default-font-family: 'Spartan', sans-serif;
+  --background-image-desktop: url('/images/bg-header-desktop.svg');
+  --background-image-mobile: url('/images/bg-header-mobile.svg');
+}
