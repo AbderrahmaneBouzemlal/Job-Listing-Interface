@@ -13,7 +13,7 @@
 </script>
 
 <div
-  class="bg-white glass backdrop-blur-sm p-6 rounded-md flex flex-col sm:flex-row justify-between items-start sm:items-center border-l-4 {job.featured
+  class="bg-white glass shadow-primary-green-400 shadow-lg backdrop-blur-sm p-6 rounded-md flex flex-col sm:flex-row justify-between items-start sm:items-center border-l-4 {job.featured
     ? 'border-primary-green-400'
     : 'border-transparent'} {index === 0 ? 'mt-0' : 'mt-6'}"
 >
